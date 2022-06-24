@@ -16,7 +16,7 @@ savour 汉语意思为 "兴趣，趣味，品尝" 的意思，我们起这个名
 
 ## 4. 钱包整体架构设计
 
-![23cc3b9a-091f-4ec9-8270-48b4fc4b2b91.svg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d5ff1696-79a2-4974-83b5-bebabbdf6714/23cc3b9a-091f-4ec9-8270-48b4fc4b2b91.svg)
+![9.svg](https://github.com/SavourDao/docs/blob/main/images/9.svg)
 
 中间层和 DAPP 层通信方式，RestApi, 服务端层和中间层之间通信使用内部 gRPC 接口。
 
@@ -24,7 +24,7 @@ savour 汉语意思为 "兴趣，趣味，品尝" 的意思，我们起这个名
 
 ### 5.1. **HD 钱包业务流程(一期)**
 
-![2.svg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3ce42cae-644b-4871-8876-47495e1afdeb/2.svg)
+![10.svg](https://github.com/SavourDao/docs/blob/main/images/10.svg)
 
 ### 5.2. 社交恢复钱包(需要讨论有没有必要做)
 
@@ -35,23 +35,23 @@ savour 汉语意思为 "兴趣，趣味，品尝" 的意思，我们起这个名
 
 签名密钥可以添加或删除监护人，但只能在延迟之后（指定的一段时间之后）
 
-![1.svg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3cbb6d6e-c2b2-48f5-9317-6f683ba8d285/1.svg)
+![11.svg](https://github.com/SavourDao/docs/blob/main/images/11.svg)
 
 可参考项目：https://www.argent.xyz/ 和 https://loopring.io/
 
 ### 5.3. MPC 钱包 KeyGen 和 Sign 阶段（二期）可以参考项目：torus
 
-![3.svg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/659b686b-3724-402e-92f7-3e8ae3e2a6b8/3.svg)
+![12.svg](https://github.com/SavourDao/docs/blob/main/images/12.svg)
 
 ### 5.4. NFT 业务流程(一期)
 
-![12.svg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a01c5319-435b-47ab-9c4c-c9edcc29ebaa/12.svg)
+![13.svg](https://github.com/SavourDao/docs/blob/main/images/13.svg)
 
 NFT 一期可以考虑做一个多链 NFT 聚合器(聚合 ETH 系列，Solana,  Xtz 和一些联盟链)，提供去中心化的 mint, 买入，卖出，报价，转账，存证等功能。
 
 ### 5.5.行情业务流程(一期)
 
-![4.svg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ca35f848-d003-4b38-abb8-b578087397d0/4.svg)
+![14.svg](https://github.com/SavourDao/docs/blob/main/images/14.svg)
 
 ### 5.6.去中心化理财业务流程(此功能弱化，看资源是否足够)
 
@@ -59,7 +59,7 @@ NFT 一期可以考虑做一个多链 NFT 聚合器(聚合 ETH 系列，Solana, 
 
 ### 5.7. GameFi 业务流程(德州扑克搬到链上来玩)
 
-![111.svg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b9f455e9-253b-4a46-924b-b3d8d0302bf1/111.svg)
+![15.svg](https://github.com/SavourDao/docs/blob/main/images/15.svg)
 
 上面仅仅是一个流程图，合约里面应该考虑隐私，大小盲注等相关的逻辑，开发的时候再做细化。
 
@@ -71,7 +71,7 @@ NFT 一期可以考虑做一个多链 NFT 聚合器(聚合 ETH 系列，Solana, 
 
 用户自己管私钥，其实就是把私钥存储在用户的设备端，进行加密存储，加密的 Key 可以使用设备 ID + 密码 + 指纹等特征值。
 
-![65fa808a-47f4-47b1-b699-bef525cbe681.svg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/be701423-1afb-49f0-bbbc-60c92d6f285f/65fa808a-47f4-47b1-b699-bef525cbe681.svg)
+![16.svg](https://github.com/SavourDao/docs/blob/main/images/16.svg)
 
 用户点击生成助记词的时候，咱们将生成助记词的编码串和按照 Bip39, Bip44 协议生成私钥加密之后存储到本地设备的 sqlite 数据库中，不管是用户导出私钥还是做交易签名都直接去本地库中的私钥解密之后响应响应的操作。该方案优势就是用户的私钥自己保管，只要不丢失私钥，资金都是安全的，但是缺点就是丢失私钥无法找回，而且使用复杂度高，不适合小白用户使用，只能针对高级一些的用户。
 
@@ -79,7 +79,7 @@ NFT 一期可以考虑做一个多链 NFT 聚合器(聚合 ETH 系列，Solana, 
 
 MPC 方式托管，不需要引入中心化的东西，私钥切片可以通过用户，平台，钱包社区或者第三方密钥柜子进行保管, 弱化私钥的概念，达到像使用支付宝支付一样的体验。
 
-![a14f46cf-9a19-4dda-af66-c1cff662bc14.svg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bda8417d-4c6f-4529-b471-18d5bb6c68bc/a14f46cf-9a19-4dda-af66-c1cff662bc14.svg)
+![17.svg](https://github.com/SavourDao/docs/blob/main/images/17.svg)
 
 MPC 私钥管理是目前比较流行私钥管理方案，该方至少需要三方参与才能完成，两方计算没有意义；参与的端多一些相对比较安全一些，方案中密钥托管专用链可以多条链协同托管，并参与签名；该方案的优势就是弱化私钥的概念，用户体验好，缺点是参与方少的话安全度会低一些。
 
@@ -95,7 +95,7 @@ Zengo
 
 去中心化和中心化的行情数据，此处可以单独做成一个服务， 下图为该项目的一个大致业务流程图。
 
-![78098511-9cfb-4874-885d-95a2c476b946.svg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9cab3b3e-a9c3-4040-8477-e9b96a8e6a63/78098511-9cfb-4874-885d-95a2c476b946.svg)
+![18.svg](https://github.com/SavourDao/docs/blob/main/images/18.svg)
 
 关于行情聚合器的开发思路，行情聚合器可以使用 Python 开发，中心化交易所直接使用 ccxt 进行抓取，去中心化的 dex 可以使用 DefiLlama 进行抓取。目前中心化交易所抓取已经实现。
 
@@ -107,13 +107,13 @@ Zengo
 
 做为去中心化的项目的入口，如果我们可以做到兼容 100% 的去中心化项目，竞争优势很大。
 
-![111.svg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f9f47fc1-235a-4a60-8db0-863200d17001/111.svg)
+![19.svg](https://github.com/SavourDao/docs/blob/main/images/19.svg)
 
 ### **2.5. 硬件钱包支持**
 
 支持主流的硬件钱包 Ledger 接入使用，通过蓝牙通信方式接入。
 
-![222.svg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a961817b-9ecd-4b71-bcc7-5c29af43d2ed/222.svg)
+![20.svg](https://github.com/SavourDao/docs/blob/main/images/20.svg)
 
 ### **2.6. NFT**
 
@@ -129,7 +129,7 @@ Zengo
 
 下面流程图以 SavourDAO 代币和 NFT共管为例子说明
 
-![333.svg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/de01340f-598b-460d-ab50-50b2d3b325eb/333.svg)
+![21.svg](https://github.com/SavourDao/docs/blob/main/images/21.svg)
 
 Kegen： 4 个用户在 DAPP 侧参与多方计算生成密钥 Key1, Key2, Key3, Key4, 设置 3 或者 4 个人签名有效，那么当发起交易的时候需要其中的 3 个或者 4 个人签署交易，这个交易才能广播成功。
 
@@ -166,7 +166,7 @@ Go, Rust, python 和 Java, 这里其实可以统一开发语言，但是为了�
 
 ## 五. savour wallet 团队
 
-        建立一个去中心化团队，秉持人人都可以参与的目标去做，没有特定的团队人员，我们做为发起人和核心团队人员。除了特定人员需要完成指定的开发任务，社区参与人员可以选择一个功能模块去完成，完成之后可以领取 Savour 的 Token 和 NFT 奖励。
+建立一个去中心化团队，秉持人人都可以参与的目标去做，没有特定的团队人员，我们做为发起人和核心团队人员。除了特定人员需要完成指定的开发任务，社区参与人员可以选择一个功能模块去完成，完成之后可以领取 Savour 的 Token 和 NFT 奖励。
 
 ## 六. savour wallet 愿景
 
