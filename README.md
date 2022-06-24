@@ -62,17 +62,17 @@
 
 - 根据任务类型选择不同的space
 
-  ![截屏2022-06-22 21.07.07.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6f23dc21-e561-4752-b198-8de6968fa7a8/截屏2022-06-22_21.07.07.png)
+![11.png](https://github.com/SavourDao/docs/blob/main/images/11.png)
 
 - 创建任务
     - Task Permission
         - 建议选择 “Open to Applications”， 由社区里成员自己认领，由任务的创建者/Reviewer 来选择谁来执行。
 
-  ![截屏2022-06-22 23.57.27.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d2615091-23c2-475c-b943-1183c95d4cdf/截屏2022-06-22_23.57.27.png)
+![22.png](https://github.com/SavourDao/docs/blob/main/images/22.png)
 
     - Add Skill， 选择需要的技能类型
 
-  ![截屏2022-06-23 00.02.32.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c4b8f0f2-1481-49a1-8d68-b479e107e24e/截屏2022-06-23_00.02.32.png)
+![33.png](https://github.com/SavourDao/docs/blob/main/images/33.png)
 
     - Assignee：如果已经有人选了，直接选择
     - Priority：选择一个合适的优先级
@@ -87,12 +87,12 @@
 - 关注 #community-task 频道，所有新创建的任务都会出现在这个频道.
 - 点击 “Apply to claim”，并设置能够完成的due date.
 
-![截屏2022-06-23 00.16.33.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5a89c13b-4d2f-42a6-b5a2-004c042c2075/截屏2022-06-23_00.16.33.png)
+![44.png](https://github.com/SavourDao/docs/blob/main/images/44.png)
 
 - 任务的创建者可以选择或者拒绝申请任务的人。
 - 当任务被指派给某人时，会在Discord里创建一个Thread，所有任务的信息都会更新在这个Thread里
 
-![截屏2022-06-23 00.18.35.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/20091f1b-b891-4685-be03-15a2cbd7a834/截屏2022-06-23_00.18.35.png)
+![55.png](https://github.com/SavourDao/docs/blob/main/images/55.png)
 
 - 当任务进入In Review的状态泳道后，任务的创建者/Reviewer review后可以选择把任务关闭或者打回。
 - 任务完成，任务的Assginee 将获得积分。
