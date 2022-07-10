@@ -6,6 +6,8 @@ NFT 是 SavourDao 项目的一个模块，是一个集 NFT 纪念品，NFT 头�
         
 ### 二.项目架构
 
+![nft1.svg](https://github.com/SavourDao/docs/blob/main/images/nft1.svg)
+
 ### 三. 功能描述
 
 #### 1. NFT 纪念品
