@@ -543,4 +543,242 @@ api 名称：`v1/token/sourch_add_token`
  **返回参数说明**
 
 
+**13. 添加地址 ：** 
+
+**请求URL：** 
+- `api/v1/notebook/add_note_book `
+  
+**请求方式：**
+- POST 
+
+ **请求示例**
+ 
+ ``` 
+{
+    "device_id": "设备ID",
+    "name": "名字",
+    "asset_name": "资产名称",
+    "memo": "memo"
+	"address": "0x1111"
+}
+```
+
+ **返回示例**
+
+``` 
+{
+    "status": true,
+    "code": 2000,
+    "msg": "wallet success",
+    "data": null
+}
+```
+
+ **返回参数说明**
+
+|参数名|解释|
+|:----    |:---|
+
+
+**14. 修改地址 ：** 
+
+**请求URL：** 
+- `api/v1/notebook/add_note_book `
+  
+**请求方式：**
+- POST 
+
+ **请求示例**
+ 
+ ``` 
+{
+    "nb_id": 1,
+    "device_id": "设备ID",
+    "name": "名字",
+    "asset_name": "资产名称",
+    "memo": "memo"
+	"address": "0x1111"
+}
+```
+
+ **返回示例**
+
+``` 
+{
+    "status": true,
+    "code": 2000,
+    "msg": "wallet success",
+    "data": null
+}
+```
+
+ **返回参数说明**
+
+|参数名|解释|
+|:----    |:---|
+
+
+
+**15. 修改地址 ：** 
+
+**请求URL：** 
+- `api/v1/notebook/add_note_book `
+  
+**请求方式：**
+- POST 
+
+ **请求示例**
+ 
+ ``` 
+{
+    "nb_id": 1,
+    "device_id": "设备ID",
+    "name": "名字",
+    "asset_name": "资产名称",
+    "memo": "memo"
+}
+```
+
+ **返回示例**
+
+``` 
+{
+    "status": true,
+    "code": 2000,
+    "msg": "wallet success",
+    "data": null
+}
+```
+
+ **返回参数说明**
+
+|参数名|解释|
+|:----    |:---|
+
+
+**16. 删除地址 ：** 
+
+**请求URL：** 
+- `api/v1/notebook/del_note_book `
+  
+**请求方式：**
+- POST 
+
+ **请求示例**
+ 
+ ``` 
+{
+    "nb_id": 1
+}
+```
+
+ **返回示例**
+
+``` 
+{
+    "status": true,
+    "code": 2000,
+    "msg": "wallet success",
+    "data": null
+}
+```
+
+ **返回参数说明**
+
+|参数名|解释|
+|:----    |:---|
+
+
+**17. 地址列表：** 
+
+**请求URL：** 
+- `api/v1/notebook/get_note_book `
+  
+**请求方式：**
+- POST 
+
+ **请求示例**
+ 
+ ``` 
+{
+    "device_id": "设备ID"
+}
+```
+
+ **返回示例**
+
+``` 
+{
+    "status": true,
+    "code": 2000,
+    "msg": "wallet success",
+    "data": [
+        {
+            "id": 2,
+            "device_id": "设备ID",
+            "name": "名字",
+            "asset_name": "资产名称",
+            "memo": "memo",
+            "is_removed": 0,
+            "created_at": "2021-08-20T20:32:29+08:00",
+            "updated_at": "2021-08-20T20:32:29+08:00"
+        },
+        {
+            "id": 3,
+            "device_id": "设备ID",
+            "name": "名字",
+            "asset_name": "资产名称",
+            "memo": "memo",
+            "is_removed": 0,
+            "created_at": "2021-08-20T20:33:21+08:00",
+            "updated_at": "2021-08-20T20:33:21+08:00"
+        },
+        {
+            "id": 4,
+            "device_id": "设备ID",
+            "name": "名字",
+            "asset_name": "资产名称",
+            "memo": "memo",
+            "is_removed": 0,
+            "created_at": "2021-08-20T20:33:22+08:00",
+            "updated_at": "2021-08-20T20:33:22+08:00"
+        },
+        {
+            "id": 5,
+            "device_id": "设备ID",
+            "name": "名字",
+            "asset_name": "资产名称",
+            "memo": "memo",
+            "is_removed": 0,
+            "created_at": "2021-08-20T20:33:22+08:00",
+            "updated_at": "2021-08-20T20:33:22+08:00"
+        },
+        {
+            "id": 6,
+            "device_id": "设备ID",
+            "name": "名字",
+            "asset_name": "资产名称",
+            "memo": "memo",
+            "is_removed": 0,
+            "created_at": "2021-08-20T20:33:23+08:00",
+            "updated_at": "2021-08-20T20:33:23+08:00"
+        },
+        {
+            "id": 7,
+            "device_id": "设备ID",
+            "name": "名字",
+            "asset_name": "资产名称",
+            "memo": "memo",
+            "is_removed": 0,
+            "created_at": "2021-08-20T20:33:23+08:00",
+            "updated_at": "2021-08-20T20:33:23+08:00"
+        }
+    ]
+}
+```
+
+ **返回参数说明**
+
+|参数名|解释|
+|:----    |:---|
 
