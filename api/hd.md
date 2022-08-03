@@ -51,12 +51,12 @@
 
 请求示范
 ```
-    {
-      "network": "mainnet",
-    	"chain": "eth",
-    	"symbol":"eth",
-      "address": "0x0000000000000000000000"
-    }
+{
+	"network": "mainnet",
+	"chain": "eth",
+	"symbol":"eth",
+	"address": "0x0000000000000000000000"
+}
 ```    
 
 参数解释
