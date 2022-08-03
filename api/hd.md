@@ -41,21 +41,21 @@
 
 *   balance: 余额
 
-1.  **获取地址账户信息接口**
+**2. 获取地址账户信息接口**
 
-接口名称：api/v1/get\_account\_info
+接口名称：api/v1/wallet/get_account_info
 
 请求方式：post
 
 请求示范
-
+```
     {
       "network": "mainnet",
     	"chain": "eth",
     	"symbol":"eth",
       "address": "0x0000000000000000000000"
     }
-    
+```    
 
 参数解释
 
@@ -82,9 +82,9 @@
 *   nonce：eth 的 noce, 或者其他币种的类似 sequence 的东西
 *   account\_number： 账户号
 
-1.  **获取手续费接口**
+**3. 获取手续费接口**
 
-接口名称：api/v1/get\_fee
+接口名称：api/v1/wallet/get_fee
 
 请求方式：post
 
@@ -143,7 +143,7 @@
     *   gas\_limit: gas\_limit
     *   gas\_price: gas\_price
 
-1.  **广播交易接口**
+**4. 广播交易接口**
 
 接口名称：api/v1/send\_transaction
 
@@ -182,7 +182,7 @@
 
 *   hash: 交易 Hash
 
-1.  **获取未花费的输入输出(此接口针对 utxo 系列)**
+**5. 获取未花费的输入输出(此接口针对 utxo 系列)**
 
 接口名称：api/v1/get\_unspend\_list
 
@@ -229,7 +229,7 @@
 *   script：锁定脚本
 *   amount： 金额
 
-1.  **获取交易记录接口**
+**6.获取交易记录接口**
 
 接口名称：api/v1/get\_address\_transaction
 
@@ -291,7 +291,7 @@
 *   status： 状态
 *   direction: 方向，转入转出
 
-1.  **获取交易详情接口**
+**7.获取交易详情接口**
 
 接口名称：api/v1/get\_hash\_transaction
 
@@ -348,7 +348,7 @@
 *   status： 状态
 *   direction: 方向，转入转出
 
-1.  **提交钱包接口**
+**8.提交钱包接口**
 
 接口名称 api/v1/submit\_wallet\_info
 
