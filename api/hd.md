@@ -4,7 +4,9 @@
 **1.获取余额接口**
 
 接口名称：api/v1/wallet/get_balance
+
 请求方式：post
+
 请求示范
 
 ```
@@ -167,6 +169,7 @@
 *   rawtx：要广播的交易
 
 返回示范
+
 ```
     {
     	"status": true,
@@ -207,6 +210,7 @@
 
 返回示范
 
+```
     {
     	 "status": true,
        "code": 2000,
@@ -219,7 +223,7 @@
     		  "amount": 100000
        ]
     }
-    
+```    
 
 参数解释
 
@@ -237,6 +241,7 @@
 
 请求示范
 
+```
     {
       "network": "mainnet",
     	"chain": "eth",
@@ -247,7 +252,7 @@
       "page_size": 10,
       "order": "time"
     }
-    
+```   
 
 参数解释
 
@@ -261,6 +266,7 @@
 
 返回示范
 
+```
     {
        "status": true,
     	 "code": 2000,
@@ -278,7 +284,7 @@
     			 }
     	  ]
     }
-    
+```    
 
 参数解释
 
@@ -299,18 +305,20 @@
 
 请求示范
 
+```
     {
       "network": "mainnet",
     	"chain": "eth",
     	"symbol":"eth",
       "hash": "0x00000000000000000000000000"
     }
-    
+```    
 
 参数解释
 
 返回示范
 
+```
     {
        "status": true,
     	 "code": 2000,
@@ -335,7 +343,7 @@
              "direction": "out"
     		 }
     }
-    
+ ```   
 
 参数解释
 
@@ -356,6 +364,7 @@
 
 请求示例
 
+```
     {
         "device_id": "111",
         "wallet_uuid": "txlist",
@@ -365,8 +374,7 @@
         "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
         "contract_addr": "",
     }
-    
-    
+```     
 
 参数解释
 
@@ -380,19 +388,22 @@
 
 返回示例
 
+```
     {
         "status": true,
         "code": 2000,
         "message": "wallet success",
         "data": null
     }
+```
 
 **9. 批量提交地址接口 ：** 
 
 api 名称:`api/v1/wallet/batch_submit_wallet `
 请求方式: POST 
 请求示例
- ``` 
+
+``` 
 {
     "batch_wallet": [
         {
@@ -415,7 +426,9 @@ api 名称:`api/v1/wallet/batch_submit_wallet `
     ]
 }
 ```
+
 返回示例
+
 ``` 
 {
     "status": true,
