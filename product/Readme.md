@@ -112,10 +112,10 @@ NFT 跨链转移，非同类链和同类链之间的转移，如 ETH->SOL 和 SO
 
 ### 六. 社交账号
 
-- github: https://github.com/savourDao
+- github: https://github.com/savour-labs
 - 官网：http://savour.group/
 - Discord:  https://discord.gg/A6FNuahE
-- Dework: https://app.dework.xyz/raphdao
+- Project: https://github.com/orgs/savour-labs/projects/1
 - 合作媒体
   - https://chaineye.info/
   - https://www.wenwoha.com/
