@@ -7,6 +7,8 @@
 ### 二. 项目架构
 Savour wallet 社交恢复的钱包的方案设计图如下：
 
+https://github.com/savour-labs/savour-docs-chinese/blob/main/images/s1.png
+
 在我们savour wallet 中，我们整个社交恢复的流程如下：
 1. 用户的私钥或者助记词和一个大随机数做一次异或算法，得到一个新的秘密值，我们把大随机数叫做 head, 秘密值叫做 body，head 加密之后上传到 savour wallet 云端。
 2. 将 body 做门限共享秘密算法，拆分成 N 份 shadow,  设置 K 份可以恢复 body
