@@ -14,17 +14,15 @@
 
 ## 申请入会
 
-- 首先加入[Discord](https://discord.gg/JsCEwf6V)
+- 首先加入[Discord](https://discord.gg/JsCEwf6V) 或者微信群
 - 联系管理员，加入[github](https://github.com/SavourDao)
-- 管理员给你加上Discord的角色，你就有访问[dework](https://app.dework.xyz/savourdao) 的权限。
 
 ## 协作工具
 
 | 工具 | 功能 | 备注 |  |
 | --- | --- | --- | --- |
 | Discord | 社区，团队沟通交流， dework任务同步 | 希望大家能帮忙boost server，我们就可以用一些自定义的功能了。 |  |
-| GitHub | 代码管理仓库 |  |  |
-| DeWork | 任务管理 |  |  |
+| GitHub | 代码管理仓库， 任务管理 |  |  |
 | 链眼社区 | 我们主要推广的社区 | 一些技术分享，项目进展可以发布道这里。 |  |
 
 ### Discord 权限介绍
@@ -58,7 +56,7 @@
 
 ## 开始工作
 
-### 项目Core member 在dework里创建工作
+### 项目Core member 在 github project 里创建工作
 
 - 根据任务类型选择不同的space
 
