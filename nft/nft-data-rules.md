@@ -50,4 +50,5 @@
 - 巨鲸地址抓取网站一：https://dune.com/0xBi/0xBi
 - 钱包查询功能参考：https://pro.nansen.ai/wallet-profiler
 - 巨鲸地址判断参考：https://nftgo.io/whale-tracking/list
+- 参考网站链接： https://www.chaineye.info/5/newsletter_detail
 
