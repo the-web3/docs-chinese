@@ -6,6 +6,9 @@
 
 ### 二. 架构设计
 
+整个项目设计架构图如下：
+
+![nft-1.png](https://github.com/savour-labs/savour-docs-chinese/blob/main/images/nft-1.png)
 
 
 
