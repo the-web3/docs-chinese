@@ -35,20 +35,50 @@
 同时达到以上两个个条件的 NFT 项目，需要监控 NFT 交易情况，将数据推到数据清洗中心，供给业务中台使用。
 
 
-### 三. 细节逻辑
+### 三.业务细节逻辑
 
-待补充
+#### 1.规则配置
 
-### 四.总结
+             调用规则RPC
+          --------------->
+hailstone                   savour-nft【config规则配置】
+          <---------------
+               返回
+               
+具体详情参考规则配置 RPC 接口
 
-待补充
+
+#### 2.数据清洗
+
+      数据清洗                            获取清洗规则
+入库<----------savour-nft【data 中心】 <-------------- savour-nft【config规则配置】
 
 
-### 五.附录
+#### 3.数拉取服务
+              
+              巨鲸地址，NFT交易数据等
+数据聚合网站------------------------->数据抓取服务
+              
+              交易数据，合约创建，NFT 转移，NFT holder 等
+区块链网络 ----------------------------------------------> 监控服务
+
+              
+#### 4.干净数据推送
+
+            调用规则RPC
+          --------------->
+hailstone                   savour-nft【config规则配置】
+          <---------------
+             返回干净数据
+
+具体详情参考规则配置 RPC 接口 
+
+
+### 附录
 
 - Oklink: https://www.oklink.com/docs/en/#rest-api-address-top-100-richest-addresses
 - 巨鲸地址抓取网站一：https://dune.com/0xBi/0xBi
 - 钱包查询功能参考：https://pro.nansen.ai/wallet-profiler
 - 巨鲸地址判断参考：https://nftgo.io/whale-tracking/list
-- 参考网站链接： https://www.chaineye.info/5/newsletter_detail
+- 可数据抓取网站链接： https://www.chaineye.info/5/newsletter_detail
 
