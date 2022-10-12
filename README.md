@@ -17,6 +17,15 @@
 - 首先加入[Discord](https://discord.gg/JsCEwf6V) 或者微信群
 - 联系管理员，加入[github](https://github.com/SavourDao)
 
+## 管理员联系方式
+
+- 邮箱：guoshijiang2012@163.com
+- 微信：LGZAXE
+- 电报：@shijiangguo
+- discord: seekguo#0843
+- github: https://github.com/guoshijiang
+- twitter: https://twitter.com/seek_web3
+
 ## 协作工具
 
 | 工具 | 功能 | 备注 |  |
