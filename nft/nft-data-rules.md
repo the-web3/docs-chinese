@@ -8,7 +8,7 @@
 
 整个项目设计架构图如下：
 
-![nft-1.png](https://github.com/savour-labs/savour-docs-chinese/blob/main/images/nft-1.png)
+![nft-data-1.png](https://github.com/savour-labs/savour-docs-chinese/blob/main/images/nft-data-1.png)
 
 #### 1.规则组件详细逻辑
 
@@ -39,6 +39,9 @@
 
 #### 1.规则配置
 
+![nft-data-2.png](https://github.com/savour-labs/savour-docs-chinese/blob/main/images/nft-data-2.png)
+
+
 ```
              调用规则RPC
           --------------->
@@ -53,6 +56,9 @@ hailstone                   savour-nft【config规则配置】
 
 #### 2.数据清洗
 
+![nft-data-3.png](https://github.com/savour-labs/savour-docs-chinese/blob/main/images/nft-data-3.png)
+
+
 ```
       数据清洗                            获取清洗规则
 入库<----------savour-nft【data 中心】 <-------------- savour-nft【config规则配置】
@@ -60,6 +66,9 @@ hailstone                   savour-nft【config规则配置】
 ```
 
 #### 3.数拉取服务
+
+![nft-data-4.png](https://github.com/savour-labs/savour-docs-chinese/blob/main/images/nft-data-4.png)
+
 
 ```              
               巨鲸地址，NFT交易数据等
@@ -70,6 +79,8 @@ hailstone                   savour-nft【config规则配置】
 ```
               
 #### 4.干净数据推送
+
+![nft-data-5.png](https://github.com/savour-labs/savour-docs-chinese/blob/main/images/nft-data-5.png)
 
 ```
 
