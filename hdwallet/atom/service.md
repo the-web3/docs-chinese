@@ -15,8 +15,9 @@ def validat_address(address):
 
 ### 3. 手续费相关的
 ```
-fees = gas * gas-prices
-https://docs.cosmos.network/master/basics/gas-fees.html#gas-and-fees 
+def get_gas():
+   fees = gas * gas-prices
+   https://docs.cosmos.network/master/basics/gas-fees.html#gas-and-fees 
 ```
 
 ### 3. 获取账户信息和账户余额
