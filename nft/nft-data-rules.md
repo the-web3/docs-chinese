@@ -93,10 +93,16 @@ hailstone                   savour-nft【config规则配置】
 
 具体详情参考规则配置 RPC 接口 
 
-### 附录
+### 附录1-需要爬虫的网站
 
 - Oklink: https://www.oklink.com/docs/en/#rest-api-address-top-100-richest-addresses
 - 巨鲸地址抓取网站一：https://dune.com/0xBi/0xBi
+- polygonscan: https://polygonscan.com/labelcloud
+- arbiscan: https://arbiscan.io/labelcloud
+- etherscan: https://etherscan.io/labelcloud
+
+
+### 附录2
 - 钱包查询功能参考：https://pro.nansen.ai/wallet-profiler
 - 巨鲸地址判断参考：https://nftgo.io/whale-tracking/list
 - 可数据抓取网站链接： https://www.chaineye.info/5/newsletter_detail
