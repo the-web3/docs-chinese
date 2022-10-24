@@ -28,6 +28,15 @@
    "id":1
 }
 ```
+或者
+```
+{
+   "jsonrpc":"2.0",
+   "method":"system_accountNextIndex",
+   "params": ["16ZL8yLyXv3V3L3z9ofR1ovFLziyXaN1DPq4yffMAZ9czzBD"],
+   "id":1
+}
+```
 
 - params 里面传入的是对应的地址
 
