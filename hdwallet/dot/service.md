@@ -189,7 +189,7 @@ result: result 的值就是 Account Nonce
 
    
    
-   
+sidecar api 链接：https://paritytech.github.io/substrate-api-sidecar/dist/
 
 
 
