@@ -4,17 +4,10 @@
 
 ### 1. 根据地址获取账户余额
 
-请求示范
+- state_queryStorageAt
+- state_queryStorage 
 
-```
-
-```
-
-返回示范
-
-```
-
-```
+以上两个方法都可以
 
 
 ### 2. 获取 Account Nonce 
