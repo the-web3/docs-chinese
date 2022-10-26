@@ -1,10 +1,10 @@
 ## algo 文档
 
-go-sdk: https://github.com/algorand/go-algorand-sdk
-开放节点1：https://mainnet-api.algonode.cloud， 节点提供商：https://algonode.io/api/#free-as-in--algorand-api-access
-开放节点选择文档: https://developer.algorand.org/docs/get-started/devenv/ 
-浏览器：https://algoexplorer.io/
-接口文档：https://developer.algorand.org/docs/rest-apis/algod/v2/
+- go-sdk: https://github.com/algorand/go-algorand-sdk
+- 开放节点1：https://mainnet-api.algonode.cloud， 节点提供商：https://algonode.io/api/#free-as-in--algorand-api-access
+- 开放节点选择文档: https://developer.algorand.org/docs/get-started/devenv/ 
+- 浏览器：https://algoexplorer.io/
+- 接口文档：https://developer.algorand.org/docs/rest-apis/algod/v2/
 
 ### 1. 获取账户余额
 
