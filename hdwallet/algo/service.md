@@ -36,10 +36,18 @@ def send_transaction(tx):
     return await self.request_rest(path, method='POST', rawtxn=bytes.fromhex(tx))
 ```
 
+### 4.根据 Hash 获取交易详情
 
-### 4.根据地址获取交易列表
+https://algoexplorer.io/api-dev/indexer-v2
 
-自行研究浏览器 api 获取
+look up 模块，自行研究浏览器 api 获取
+
+
+### 5.根据地址获取交易列表
+
+https://algoexplorer.io/api-dev/indexer-v2
+
+look up 模块，自行研究浏览器 api 获取
 
 
 
