@@ -1,6 +1,7 @@
 # DOT SavourHd 需要对接的接口
 
 - 开放节点：https://rpc.polkadot.io
+- go-sdk: https://github.com/savour-labs/go-substrate-rpc-client
 
 ### 1. 根据地址获取账户余额
 
