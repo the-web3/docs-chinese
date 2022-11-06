@@ -40,10 +40,10 @@
 | 字段名称  |  类型  |   解释 |
 |:-------:|:-----:|:--------|
 | id      | bigInt|   ID   |
-| wallet_id| bigInt|   链ID  |
+| wallet_id| bigInt|  链ID  |
 | logo    | varchar| 币Logo |
 | name    |varchar|  资产名称|
-| contract|varchar|  合约地址|
+| contract_addr |varchar|  合约地址|
 | unit    | int   |  精度   |
 | balance | decimal | 余额 |
 | asset_usd |decimal | USD 资产|
