@@ -13,6 +13,8 @@
 |   id    | bigInt |  ID   |
 |   name  | varchar| 链名称 |
 |   logo  | varchar| 链Logo |
+| active_logo   | varchar| 激活链Logo |
+| support | bool| 是否支持这个链 |
 |  is_del |  int   | 状态 0正常 1删除|
 
 
@@ -20,29 +22,31 @@
 | 字段名称  |  类型  |   解释 |
 |:-------:|:-----:|:--------|
 |   id    | bigInt |  ID   |
-|   name  | varchar| 链名称 |
-|   logo  | varchar| 链Logo |
-|  is_del |  int   | 状态 0正常 1删除|
+|chain_id | bigInt |  ID   |
+|  name   | varchar| 钱包名称 |
+|device_id| varchar| 设备 ID |
+|wallet_id| varchar| 钱包 ID |
+| encode  |varchar|  加密的助记词编码   |
+|password |varchar|  密码   |
+| balance | decimal | 余额 |
+| asset_usd |decimal | USD 资产|
+| asset_cny |decimal | CNY 资产|
+| has_sumbit | bool | 是否提交 |
+| is_del  |  int   | 状态 0正常 1删除|
 
 
 #### 2.3 资产表
 | 字段名称  |  类型  |   解释 |
 |:-------:|:-----:|:--------|
 | id      | bigInt|   ID   |
-| chain_id| bigInt|   链ID  |
+| wallet_id| bigInt|   链ID  |
 | logo    | varchar| 币Logo |
 | name    |varchar|  资产名称|
 | contract|varchar|  合约地址|
 | unit    | int   |  精度   |
-| is_del  |  int  | 状态 0正常 1删除|
-
-
-#### 2.3 助记词表
-| 字段名称  |  类型  |   解释 |
-|:-------:|:-----:|:--------|
-| id      | bigInt|   ID    |
-| coin_id | bigInt|   资产ID |
-| encode  |varchar|  加密的助记词编码   |
+| balance | decimal | 余额 |
+| asset_usd |decimal | USD 资产|
+| asset_cny |decimal | CNY 资产|
 | is_del  |  int  | 状态 0正常 1删除|
 
 
@@ -50,11 +54,9 @@
 | 字段名称  |  类型  |   解释 |
 |:-------:|:-----:|:--------|
 | id      | bigInt|   ID    |
-| coin_id | bigInt|   资产ID |
-| word_id | bigInt|   助记词ID |
+| wallet_id | bigInt|   资产ID |
 | index   |  int  |  Bip地址索引 |
 | address |varchar|   地址   |
-| balance |varchar|   账户余额   |
 | pub_key |varchar|   公钥    |
 | priv_key|varchar|  加密的私钥    |
 | is_del  |  int  | 状态 0正常 1删除|
