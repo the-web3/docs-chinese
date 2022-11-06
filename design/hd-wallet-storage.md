@@ -43,7 +43,7 @@
 | wallet_id| bigInt|  链ID  |
 | logo    | varchar| 币Logo |
 | name    |varchar|  资产名称|
-| contract_addr |varchar|  合约地址|
+|contract_addr |varchar|  合约地址|
 | unit    | int   |  精度   |
 | balance | decimal | 余额 |
 | asset_usd |decimal | USD 资产|
@@ -55,27 +55,11 @@
 | 字段名称  |  类型  |   解释 |
 |:-------:|:-----:|:--------|
 | id      | bigInt|   ID    |
-| wallet_id | bigInt|   资产ID |
-| index   |  int  |  Bip地址索引 |
+|wallet_id| bigInt|   资产ID |
+| index   |  int  |Bip地址索引|
 | address |varchar|   地址   |
 | pub_key |varchar|   公钥    |
-| priv_key|varchar|  加密的私钥    |
-| is_del  |  int  | 状态 0正常 1删除|
-
-
-#### 2.5 交易记录表
-| 字段名称  |  类型  |   解释 |
-|:-------:|:-----:|:--------|
-| id      | bigInt|   ID    |
-| coin_id | bigInt|   资产ID |
-| from    |varchar|   转出地址 |
-| to      |varchar|   转入地址 |
-| tx_hash |varchar|  交易 Hash |
-| rwa     |varchar|  签名的交易 |
-| fee     |varchar|  交易手续费 |
-| block   |bigInt |  所在区块 |
-| direction|int |  方向：0 转入，1 转出 |
-| status  |  int  | 状态  0成功  1失败|
+| priv_key|varchar| 加密的私钥 |
 | is_del  |  int  | 状态 0正常 1删除|
 
 
