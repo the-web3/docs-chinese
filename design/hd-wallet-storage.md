@@ -27,7 +27,7 @@
 |wallet_name   | varchar| 钱包名称 |
 |device_id| varchar| 设备 ID |
 |wallet_uuid| varchar| 钱包 UUID |
-| encode  |varchar|  加密的助记词编码   |
+|mnemonic_code  |varchar|  加密的助记词编码   |
 |password |varchar|  密码   |
 | balance | decimal | 余额 |
 | asset_usd |decimal | USD 资产|
