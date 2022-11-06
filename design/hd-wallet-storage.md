@@ -24,7 +24,7 @@
 |:-------:|:-----:|:--------|
 |   id    | bigInt |  ID   |
 |chain_id | bigInt |  ID   |
-|  name   | varchar| 钱包名称 |
+|wallet_name   | varchar| 钱包名称 |
 |device_id| varchar| 设备 ID |
 |wallet_id| varchar| 钱包 ID |
 | encode  |varchar|  加密的助记词编码   |
