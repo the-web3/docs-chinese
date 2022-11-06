@@ -12,6 +12,7 @@
 |:-------:|:-----:|:--------|
 |   id    | bigInt |  ID   |
 |   name  | varchar| 链名称 |
+|  symbol | varchar| 主币名称 |
 |   logo  | varchar| 链Logo |
 | active_logo   | varchar| 激活链Logo |
 | support | bool| 是否支持这个链 |
