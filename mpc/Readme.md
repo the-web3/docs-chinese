@@ -19,3 +19,12 @@ MPC 私钥管理是目前比较流行私钥管理方案，该方至少需要三�
 - 节点签完名之后给到 hailstone，hailstone 将交易发送到区块链网络，并返回交易 Hash 给 APP 端
 
 ### 三. 实现细节
+
+#### 1. keygen 流程图
+
+![mpc-keygen.png](https://github.com/savour-labs/savour-docs-chinese/blob/main/images/mpc-keygen.png)
+
+
+#### 2. sign 流程图
+
+![mpc-sign.png](https://github.com/savour-labs/savour-docs-chinese/blob/main/images/mpc-sign.png)
