@@ -28,3 +28,33 @@ Savour wallet 社交恢复的钱包的方案设计图如下：
 
 社交恢复钱包最早出现是以以太坊的智能合约方式实现的，仅仅只支持以太坊生态，而我们 Savour 社交恢复钱包是使用密码学的技术解决方案，可以将社交恢复钱包推广到所有区块链生态。这是也是我们 Savour 社交恢复钱包和其他社交恢复钱包相比的核心竞争力。
  
+ 
+### 四. js 拆分伪代码
+
+```
+const savoursecret = require("savour-secret")
+
+const key = savoursecret.random(512)
+console.log("key=", key)
+
+// 将 Key 拆分为 head 和 body
+const head_body = savoursecret.share(key, 2, 2)
+console.log("head_body=", head_body)
+
+
+// body 继续拆分
+const body = head_body[1]
+const shares = savoursecret.share(body, 10, 5)
+console.log("shares=", shares)
+
+
+// body 恢复
+const body_recover = savoursecret.combine(shares.slice(4, 9))
+console.log("body_recover=", body_recover)
+
+
+// key 恢复
+const shares_recover = [body_recover, head_body[0]]
+const key_recover = savoursecret.combine(shares_recover)
+console.log("key_recover=", key_recover)
+```
