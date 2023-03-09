@@ -22,7 +22,7 @@
 - 邮箱：guoshijiang2012@163.com
 - 微信：LGZAXE
 - 电报：@shijiangguo
-- discord: seekguo#0843
+- discord: https://discord.gg/9N62gJgMVW
 - github: https://github.com/guoshijiang
 - twitter: https://twitter.com/seek_web3
 ## 协作工具
