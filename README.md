@@ -25,6 +25,7 @@
 - discord: https://discord.gg/9N62gJgMVW
 - github: https://github.com/guoshijiang
 - twitter: https://twitter.com/seek_web3
+- Tg: https://t.me/+qqhy1i-_xnU1M2Jl
 ## 协作工具
 
 | 工具 | 功能 | 备注 |  |
